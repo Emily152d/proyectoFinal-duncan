@@ -1,3 +1,4 @@
+let nombre = prompt('Ingrese el nombre del estudiante');
 let cant_notas = Number(prompt('Ingrese la cantidad de notas a promediar'));
 
 let suma_notas = 0;
@@ -13,6 +14,12 @@ for (let i = 1; i <= cant_notas; i++) {
 }
 
 let promedio = suma_notas / cant_notas;
+
+function saludar() {
+    console.log('Hola ' + nombre);
+}
+
+saludar();
 
 console.log('El promedio es de', promedio);
 
