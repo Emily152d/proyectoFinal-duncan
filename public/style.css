@@ -1,0 +1,43 @@
+:root {
+    --bg-color: #6b024d;
+}
+
+html, body {
+    background-color: var(--bg-color);
+}
+
+h1 {
+    font-size: 25px;
+    color: white;
+    margin: 0%;
+    margin-top: 60px;
+    margin-left: 40%;
+}
+
+label {
+    font-size: 17px;
+    color: white;
+    margin-left: 25%;
+}
+
+h2 {
+    color: white;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+form {
+    margin-left: -25%;
+}
+
+#calcularNotas {
+    margin-left: 25%;
+    margin-top: 3%;
+}
+
+#mensajeResultado {
+    color: white;
+    font-size: 25px;
+    margin-left: 33%;
+    margin-top: 12%;
+}
